@@ -1,0 +1,6 @@
+{
+  "name": "LearnMate AI",
+  "description": "Multilingual AI-powered learning platform supporting text, document upload, voice learning, adaptive quizzes, gamification, and personal study libraries.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

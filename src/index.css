@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-purple: #6C63FF;
+    --brand-sky: #55C2FF;
+    --brand-lavender: #F7F6FF;
+    --ink-primary: #1A173B;
+  }
+
+  body {
+    background-color: #F7F6FF;
+    color: #1A173B;
+    font-family: "DM Sans", "Noto Sans Tamil", "Noto Sans Devanagari", "Noto Sans Arabic", "Noto Sans JP", "Noto Sans SC", system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: "Plus Jakarta Sans", "Noto Sans Tamil", "Noto Sans Devanagari", system-ui, sans-serif;
+    letter-spacing: -0.015em;
+  }
+
+  .font-mono-nums {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.gradient-brand {
+  background: linear-gradient(135deg, #6C63FF 0%, #55C2FF 100%);
+}
+
+.gradient-soft {
+  background: linear-gradient(135deg, rgba(108, 99, 255, 0.08) 0%, rgba(85, 194, 255, 0.09) 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
